@@ -1,0 +1,2 @@
+window.sad--;
+window.happy++;

@@ -3,10 +3,11 @@
 <head>
 <title>Check if internetz == true</title>
 <style>
-  html {
-    font-family: Georgia, serif;
-    background-color: #e8e8e8;
-  }
+  html { font-family: Georgia, serif; background-color: #e8e8e8; line-height: 1.4; }
+  dl { font-size: 1.2em; font-family: monaco, monospace; }
+  dt { float: left; margin: 0 1em 0 0; white-space: pre; }
+  #happy { color: green; }
+  #sad { color: red; }
 </style>
 <script src='js/vendor/jquery-2.0.1.min.js'></script>
 </head>
@@ -15,7 +16,14 @@
 
 <body>
 <h1>Check if internetz == true</h1>
-<h2>Checked <span></span> times</h2>
+<dl>
+  <dt>Checked: </dt>
+  <dd id='cante'></dd>
+  <dt>Success: </dt>
+  <dd id='happy'></dd>
+  <dt>Failure: </dt>
+  <dd id='sad'></dd>
+</dl>
 
 <div id='moribus'>
   <script src='js/gedrag.js'></script>

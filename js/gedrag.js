@@ -29,7 +29,7 @@ var metele = function(){
 }
 
 metele();
-var amego = setInterval(metele, 5*1000);
+var amego = setInterval(metele, 60*1000);
 
 
 
